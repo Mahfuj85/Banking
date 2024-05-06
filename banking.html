@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baking Page</title>
+    <link rel="stylesheet" href="./CSS/banking.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Let's Get Some <span>MONEEEEEEY</span> !!!!</h1>
+        <div class="top-box">
+            <div class="deposit-box">
+                <h2>Deposit</h2>
+                <h3>$ <span id="deposit-total">000</span></h3>
+            </div>
+            <div class="withdraw-box">
+                <h2>Withdraw</h2>
+                <h3>$ <span id="withdraw-total">000</span></h3>
+            </div>
+            <div class="balance-box">
+                <h2>Balance</h2>
+                <h3>$ <span id="balance-total">000</span></h3>
+            </div>
+        </div>
+        <div class="bottom-box">
+            <div class="deposit-ammount">
+                <h2>Deposit Ammount</h2>
+                <input type="number" min="0" id="deposit-input" placeholder="$ Deposit Ammount">
+                <p id="deposit-field-error">Deposit input field is required</p>
+                <br>
+                <button id="deposit-btn">Deposit</button>
+                <p id="deposit-error">Deposite ammount should be at least $1</p>
+            </div>
+            <div class="withdraw-ammount">
+                <h2>Withdraw Ammount</h2>
+                <input type="number" min="0" id="withdraw-input" placeholder="$ Withdraw Ammount">
+                <p id="withdraw-field-error">Withdraw input field is required</p>
+                <br>
+                <button id="withdraw-btn">Withdraw</button>
+                <p id="withdraw-error">Withdraw ammount should be at least $10</p>
+                <p id="withdraw-more">Withdraw ammount should not be more than balance ammount</p>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="./JS/banking.js"></script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+.main h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 40px;
+    text-align: center;
+}
+.main span{
+    color: blueviolet;
+}
+.top-box{
+    height: 30%;
+    width: 72%;
+    margin-top: 40px;
+    margin-left: 14%;
+    display: flex;
+    gap: 20px;
+}
+.deposit-box{
+    background-color: rgba(0, 0, 255, 0.332);
+    height: 100%;
+    width: 33%;
+    border-radius: 15px;
+    padding: 40px 30px;
+    color: #fff;
+}
+.withdraw-box{
+    background-color: rgb(240, 191, 14);
+    height: 100%;
+    width: 33%;
+    border-radius: 15px;
+    padding: 40px 30px;
+    color: #fff;
+}
+.balance-box{
+    background-color: skyblue;
+    height: 100%;
+    width: 33%;
+    border-radius: 15px;
+    padding: 40px 30px;
+    color: #fff;
+}
+.top-box h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+.top-box h3{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.top-box span{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 10px;
+    color: #fff;
+}
+.bottom-box{
+    height: 70%;
+    width: 72%;
+    margin-top: 40px;
+    margin-left: 14%;
+    display: flex;
+    gap: 20px;
+}
+.deposit-ammount{
+    background-color: rgba(134, 191, 237, 0.332);
+    height: 100%;
+    width: 50%;
+    border-radius: 15px;
+    padding: 40px 30px;
+    color: #fff;
+}
+.deposit-ammount p{
+    font-size: 16px;
+    color: red;
+    margin-top: 10px;
+    margin-bottom: 0;
+    display: none;
+}
+.withdraw-ammount{
+    background-color: rgb(235, 213, 135);
+    height: 100%;
+    width: 50%;
+    border-radius: 15px;
+    padding: 40px 30px;
+    color: #fff;
+}
+.withdraw-ammount p{
+    font-size: 16px;
+    color: red;
+    margin-top: 10px;
+    margin-bottom: 0;
+    display: none;
+}
+#withdraw-error2{
+    font-size: 16px;
+    color: red;
+    margin-top: 10px;
+    margin-bottom: 0;
+    display: none;
+}
+
+.bottom-box h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+}
+.bottom-box input{
+    width: 80%;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 3px solid rgba(0, 0, 0, 0.234);
+    border-radius: 5px;
+}
+.bottom-box button{
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgb(236, 7, 102);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
