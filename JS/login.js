@@ -14,7 +14,7 @@ document.getElementById('login-btn').addEventListener('click', function(){
     //indirect to one page to another page
     if (email == "admin@gmail.com" && password == 123456){
         document.getElementById('error').style.display = "none";
-        window.location.href = "../banking.html";
+        window.location.href = "banking.html";
     }else{
         document.getElementById('error').style.display = "block";
     }
